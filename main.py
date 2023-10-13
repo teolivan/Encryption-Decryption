@@ -8,3 +8,6 @@ key = chars.copy()
 random.shuffle(key)
 print(f"chars: {chars}")
 print(f"key: {key}")
+
+#ENCRYPTION
+plain_text = input("Enter a message to encrypt: ")
