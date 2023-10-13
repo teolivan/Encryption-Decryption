@@ -21,8 +21,8 @@ print(f"original message: {plain_text}")
 print(f"encrypted message: {cipher_text}")
 
 #DECRYPTION
-plain_text = input("Enter a message to decrypt: ")
-cipher_text = ""
+cipher_text = input("Enter a message to decrypt: ")
+plain_text = ""
 
 for letter in cipher_text:
     index = key.index(letter)
